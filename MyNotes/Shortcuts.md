@@ -42,6 +42,39 @@ Approximation = aprxmn
 </details>
  
 
+### Application of concepts
+
+### <font color="green">Nouns</font>
+
+### NEW IDEA - Numbers 
+        Why: save the whole pressing shift
+
+##### n0uns
+
+- 0shortcut0 = noun
+  - eg 0env0 = environment
+
+##### v3rbs
+- 3verb3
+
+##### sentences
+  ..shortcut
+
+```json
+{
+{
+"word": "environment",
+"shortcut" : "/env"
+}
+
+{
+}
+
+}
+```
+
+
+
 ### 💡 Solution found for Magical extension ⤵️
     Use a space at the end of the shortcut
 
