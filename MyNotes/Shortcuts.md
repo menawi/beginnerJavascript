@@ -78,3 +78,6 @@ Approximation = aprxmn
 ### 💡 Solution found for Magical extension ⤵️
     Use a space at the end of the shortcut
 
+/archie/
+/archie.sign/
+/archie.sign.2/
