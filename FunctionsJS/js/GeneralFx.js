@@ -1,5 +1,7 @@
 // basic function syntax
 
+// export {} ;
+
 function nameOfFunc(parameter){
     // func definition / body
 }
@@ -50,3 +52,5 @@ setTimeout(() => {
     console.log('3 seconds has elapsed');
   }, 3000);
 
+
+  console.log("omar");
