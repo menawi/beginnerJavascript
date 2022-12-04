@@ -1,5 +1,6 @@
 importScripts("/FunctionsJS/js/GeneralFx")
 
+
 {let currentMoney = 10
 let laptopPrice = 100
 
