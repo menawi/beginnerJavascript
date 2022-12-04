@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+    
+  }
+
+  /* position of the jar */
+  .box{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 275px;
+    height: 400px;
+  }
+  
+  .jar-walls{
+    height: 60%;
+    width: 80%;
+    /* change the background -> changes color of jar */
+    background: #a1e0da;
+    border-radius: 3rem;
+    position: absolute; 
+    bottom: 0.5%;
+    left: 10%;
+    opacity: 0.5;
+    z-index: 3;
+  }
+  
+  .jar-top{
+    width: 50%;
+    height: 5%;
+    background: #a1e0da;
+    position: absolute;
+    bottom: 60.5%;
+    left: 25%;
+    opacity: 0.7;
+    z-index: 3;
+  }
+  
+  .jar-bottom{
+    width: 50%;
+    height: 1%;
+    background: #a1e0da;
+    position: absolute;
+    bottom: 0%;
+    left: 25%;
+    opacity: 0.7;
+  }
+  
+  .jar-glossy-long{
+    width: 3%;
+    height: 20%;
+    border-radius: 2rem;
+    background: #ddfbff;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+  }
+  
+  .jar-glossy-short{
+    width: 3%;
+    height: 5%;
+    border-radius: 2rem;
+    background: #ddfbff;
+    position: absolute;
+    bottom: 45%;
+    left: 5%;
+  }
+
+  /* HERE IS WHERE THE ANIMATION STARTS */
+  
+  .pencil{
+    width: 10%;
+    height: 80%;
+    background: #fc9e46;
+    position: absolute;
+    bottom: 7%;
+    left: 32%;
+    border-left: solid 0.1em #bc8742;
+    border-right: solid 0.1em #bc8742;
+    z-index: 2;
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  
+  .pencil:hover{
+    bottom: 20%;
+    -webkit-transform: rotate(1deg);
+    transform: rotate(1deg);
+    cursor: pointer;
+  }
+  
+  .pencil-end{
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    width: 110%;
+    height: 13%;
+    background: #f2ec9b;
+    position: absolute;
+    top: -13%;
+    left: -5%;
+    overflow: hidden;
+  }
+  
+  .pencil-end-black{
+    width: 100%;
+    height: 30%;
+    background: #000;
+    position: absolute;
+    top: 0%;
+  }
+  
+  .pencil-inner{
+    width: 33%;
+    height: 100%;
+    background: #bc8742;
+    position: absolute;
+    bottom: 0%;
+    left: 33%;
+  }
+  
+  .pencil-metal{
+    width: 110%;
+    height: 3%;
+    background: #8e939e;
+    position: absolute;
+    bottom: -3%;
+    left: -5%;
+  }
+  
+  .pencil-rubber{
+    width: 100%;
+    height: 5%;
+    background: #e5758f;
+    position: absolute;
+    bottom: -8%;
+  }
+  
+  .scissors{
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    left: 23%;
+    bottom: 16%;
+    z-index: 1;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  
+  .scissors:hover{
+     -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    bottom: 30%;
+    cursor: pointer;
+  }
+  
+  .scissors-blades{
+    height: 50%;
+    width: 20%;
+    background: #adb0b2;
+    border-radius: 0 0  10rem 10rem / 50rem;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    z-index: 2;
+    overflow: hidden;
+  }
+  
+  .scissors-blade2{
+    height: 100%;
+    width: 50%;
+    background: #848687;
+    position: absolute;
+    -webkit-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+    left: -22%;
+  }
+  
+  .scissors-plate-left{
+    width: 19%;
+    height: 25%;
+    background: #adb0b2;
+    position: absolute;
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    bottom: 47%;
+    left: 34%;
+    z-index: 2;
+  }
+  
+  .scissors-plate-right{
+    width: 19%;
+    height: 25%;
+    background: #848687;
+    position: absolute;
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+    bottom: 47%;
+    right: 34%;
+    z-index: 1;
+  }
+  
+  .holder-left{
+    position: absolute;
+    height: 35%;
+    width: 40%;
+    border: solid 1.5rem #bc1414;
+    border-radius: 3rem;
+    z-index: 3;
+    left: 9.5%
+  }
+  
+  .holder-right{
+    position: absolute;
+    height: 35%;
+    width: 40%;
+    border: solid 1.5rem #bc1414;
+    border-radius: 3rem;
+    z-index: 3;
+    right: 9.5%
+  }
+  
+  .pin{
+    width: 5%;
+    height: 3%;
+    border-radius: 50%;
+    background: #848687;
+    position: absolute;
+    left: 47.5%;
+    bottom: 49%;
+    z-index: 3;
+  }
